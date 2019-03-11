@@ -56,8 +56,8 @@
     line-height: 1.2;
     text-align: center;
     position: absolute;
-    left: 718.828px;
-    top: 56.712px;
+     right: 17%;
+    top: 17%;
     z-index: 22;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     opacity: 0.7;
@@ -112,5 +112,255 @@
 }
 
 .item{
-    max-height: 407px
+    max-height: 407px;
+    position: relative;
+}
+
+.adImage{
+ opacity: 0.676;
+ position: relative;
+ max-width: 633px;
+ max-height: 118px;
+ z-index: 1;
+ margin: 2%;
+}
+
+.adText{
+   font-size: 38.56px;
+    font-family: 'Tajawal',sans-serif;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   line-height: 1.2;
+   text-align: center;
+   text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.38);
+   position: absolute;
+    top: 34%;
+     right: 14%;
+    z-index: 2;
+}
+
+.mainText{
+   
+        font-size: 81.56px;
+    font-family: 'Changa',sans-serif;
+        color: rgb(255, 255, 255);
+ 
+        line-height: 1.2;
+        text-align: center;
+        position: absolute;
+            top: 30%;
+            right: 30%;
+        z-index: 2;
+    
+
+}
+
+.paymentsLogos {
+        position: relative;
+        margin-top: 25px;
+}
+
+
+
+.productCard{
+    width: 100%;
+    height: 193px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+   margin-bottom: 10%;
+}
+
+.productImg {
+   width: 140px;
+   height: 129px;
+       position: absolute;
+       top: 13%;
+       right: 3%;
+       
+}
+
+.seperator{
+  width: 2px;
+  height: 134px;
+  border: rgba(128, 128, 128, 0.452) solid 1px;
+      position: absolute;
+      right: 44%;
+      top: 21%;
+}
+
+
+.cardTitle {
+    font-size: 21.56px;
+    font-family: 'Changa', sans-serif;
+    color: rgb(2, 76, 147);
+    line-height: 1.2;
+    margin: 7%;
+    margin-top: 16%;
+}
+
+
+.cardDetails{
+  font-size: 12px;
+    font-family: 'Tajawal', sans-serif;
+ 
+  color: rgb(114, 105, 105);
+  line-height: 1.2;
+  text-align: center;
+      margin-right: 45%;
+
+}
+
+
+
+.details{
+    margin-top: 0%;
+}
+.mada{
+        width: 40px;
+            position: absolute;
+            left: 8%;
+            bottom: 4%;
+}
+.visa{
+        width: 40px;
+            position: absolute;
+            left: 37%;
+            bottom: 4%;
+}
+
+.cash{
+    position: absolute;
+        left: 25%;
+        bottom: -8px;
+
+}
+
+.cashAr{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center
+
+}
+
+.cashEn {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+text-align: center
+}
+
+.blueBar{
+         width: 100%;
+        height: 37px;
+        background:#0056b3;
+        position: relative;
+    }
+    .backToTop{
+    font-family: 'Changa',
+    sans-serif;
+        color: white;
+        font-size: 14px;
+      position: absolute;
+      left: 47%;
+      top: 26%;
+    }
+    .backToTop:hover {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .footer{
+        background-color: #84cbef;
+          width: 100%;
+          height: 288px;
+        z-index: 6;
+        position: relative;
+    }
+
+
+
+    .footerLogo{
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 4%;
+        right: 6%;
+    }
+
+    .customerSupport{
+        position: absolute;
+      top: 10%;
+      right: 24%;
+
+    }
+
+    .aboutUs{
+       position: absolute;
+       top: 10%;
+     right: 40%;
+    }
+
+    .support{
+        position: absolute;
+        top: 10%;
+    right: 56%;
+    }
+    .customerServices{
+            font-family: 'Changa',  sans-serif;
+            color: white;
+    font-size: 18.56px;
+       font-weight: bold;
+       line-height: 1.2;
+       text-align: right;
+    }
+
+       .customerServi {
+           font-family: 'Changa', sans-serif;
+           color: white;
+           font-size: 16px;
+           font-weight: 500;
+           line-height: 1.2;
+           text-align: right;
+       }
+
+       .application{
+             font-family: 'Changa',
+             sans-serif;
+             color: black;
+             font-size: 16px;
+             font-weight: 500;
+             line-height: 1.2;
+             text-align: right;
+                 padding-top: 27px;
+
+       }
+
+.Whats{
+           font-family: 'Changa',
+           sans-serif;
+           color: white;
+           font-size: 19px;
+           font-weight: 500;
+           line-height: 1.2;
+           text-align: right;
+           padding-top: 27px;
+}
+
+.contact{
+    position: absolute;
+      top: 18%;
+      left: 6%;
+}
+
+.qrCode{
+        padding-left: 30%;
+
 }
