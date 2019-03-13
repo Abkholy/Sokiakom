@@ -3,6 +3,10 @@ $('.owl-carousel').owlCarousel({
     margin: 10,
     nav: false,
     dots: false,
+    autoplay: true,
+autoplayTimeout: 1500,
+rtl:true,
+autoplayHoverPause: true,
     responsive: {
         0: {
             items: 1
@@ -19,14 +23,6 @@ $('.owl-carousel').owlCarousel({
 var owl = $(".owl-carousel");
 
 
-owl.on('mousewheel', '.owl-stage', function (e) {
-    if (e.deltaY > 0) {
-        owl.trigger('next.owl.carousel');
-    } else {
-        owl.trigger('prev.owl.carousel');
-    }
-    e.preventDefault();
-});
 
 
 // Go to the next item
@@ -41,3 +37,8 @@ $('.owl-carousel .customPrevBtn').click(function (e) {
     e.preventDefault();
     owlCarousel.trigger('prev.owl.carousel', [300]);
 });
+
+
+function redirect(link) {
+    window.location.href = link;
+}

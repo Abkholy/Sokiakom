@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
@@ -23,7 +26,6 @@
 <body>
 
     <header class="imgBack">
-        <h1 class="title shadow-md">تطبيق سقياكم لطلب وتوصيل المياه</h1>
         <a class="login" href="">دخول</a>
         <a class="register" href="">تسجيل</a>
 
@@ -31,6 +33,8 @@
 
 
             <img class="logo navbar-brand shadow-lg" src="logo.png" alt="">
+            <h1 class="title shadow-md">تطبيق سقياكم لطلب وتوصيل المياه</h1>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -50,11 +54,11 @@
                     </li>
 
                 </ul>
-                <ul class="navbar-nav ml-auto">
+                <!-- <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link navbartext disabled " href="#">المدينة:</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                <!-- <li class="nav-item">
                         <div class="dropdown">
                             <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false" style="margin-left: 100px;">
@@ -66,9 +70,9 @@
                                 <a class="dropdown-item" href="#">مكة</a>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
 
-                    <li class="nav-item">
+                <!-- <li class="nav-item">
                         <a class="nav-link navbartext disabled " href="#">الحي:</a>
                     </li>
                     <li class="nav-item">
@@ -83,14 +87,14 @@
                                 <a class="dropdown-item" href="#">مكة</a>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
 
                 </ul>
             </div>
         </nav>
 
     </header>
-
+    <!-- 
     <main class="main">
         <div class="owl-carousel owl-theme">
             <div class="item">
@@ -104,218 +108,157 @@
             </div>
 
         </div>
-    </main>
+    </main> -->
 
-    <section name="ads" class="container-fluid pt-2" dir="rtl">
+    <!-- <section name="ads" class="container-fluid pt-2" dir="rtl">
         <div class="row">
             <div class="col-6">
-                <img class="adImage" src="img/ad1.png" alt="">
-                <h1 class="adText">سوق المياه</h1>
+                <a href="#">
+                    <img class="adImage" src="img/ad1.png" alt="">
+                    <h1 class="adText">سوق المياه</h1>
+                </a>
             </div>
             <div class="col-6">
-                <img class="adImage" src="img/ad2.png" alt="">
-                <h1 class="adText">هايبر ماركت</h1>
+                <a href="#">
+                    <img class="adImage" src="img/ad2.png" alt="">
+                    <h1 class="adText">هايبر ماركت</h1>
+                </a>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="container-fluid " dir="rtl">
+    <section class="container " dir="rtl" style="padding-top: 5%;">
         <div class="row">
-            <div class="col-lg-3">
-                <div class="card productCard shadow-lg">
-                    <img class="productImg" src="img/logos/tania.png" alt="">
-                    <div class="seperator"></div>
-                    <h5 class="cardTitle">مياه تانيا Tania</h5>
-                    <div class="details">
-                        <h6 class="cardDetails">الحد الادنى : 195 ريال</h6>
-                        <h6 class="cardDetails">التوصيل : 10:00 ص - 10:30 م</h6>
+
+            <div class="col-lg-4">
+                <div class="card itemCard shadow-lg">
+                    <img class="itemImg" src="img/nova.jpg" alt="">
+                    <h5 class="Title">مياه تانيا Tania</h5>
+                    <div class="details" style=" margin-left: 49%;">
+                        <h6 class="detailsText">أروى زيرو 330مل 24قارورة</h6>
+                        <h6 class="priceText2">الحجم:</h6>
+                        <h6 class="size">330مل</h6>
                     </div>
-                    <div class="paymentsLogos">
-                        <img class="mada" src="img/logos/mada.png" alt="">
-                        <img class="visa" src="img/logos/visa.png" alt="">
-                        <div class="cash">
-                            <h6 class="cashAr">نقداً</h6>
-                            <h6 class="cashEn">Cash</h6>
-                        </div>
+                    <div class="price">
+                        <h6 class="priceText">15 ر.س</h6>
                     </div>
                 </div>
+                <a name="" id="" class="btn btn-success btn-sm" href="#" role="button">أضف للسلة <i class="fas fa-cart-plus"></i></a>
             </div>
-            <div class="col-lg-3">
-                <div class="card productCard shadow-lg">
-                    <img class="productImg" src="img/logos/tania.png" alt="">
-                    <div class="seperator"></div>
-                    <h5 class="cardTitle">مياه تانيا Tania</h5>
-                    <div class="details">
-                        <h6 class="cardDetails">الحد الادنى : 195 ريال</h6>
-                        <h6 class="cardDetails">التوصيل : 10:00 ص - 10:30 م</h6>
-                    </div>
-                    <div class="paymentsLogos">
-                        <img class="mada" src="img/logos/mada.png" alt="">
-                        <img class="visa" src="img/logos/visa.png" alt="">
-                        <div class="cash">
-                            <h6 class="cashAr">نقداً</h6>
-                            <h6 class="cashEn">Cash</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card productCard shadow-lg">
-                    <img class="productImg" src="img/logos/tania.png" alt="">
-                    <div class="seperator"></div>
-                    <h5 class="cardTitle">مياه تانيا Tania</h5>
-                    <div class="details">
-                        <h6 class="cardDetails">الحد الادنى : 195 ريال</h6>
-                        <h6 class="cardDetails">التوصيل : 10:00 ص - 10:30 م</h6>
-                    </div>
-                    <div class="paymentsLogos">
-                        <img class="mada" src="img/logos/mada.png" alt="">
-                        <img class="visa" src="img/logos/visa.png" alt="">
-                        <div class="cash">
-                            <h6 class="cashAr">نقداً</h6>
-                            <h6 class="cashEn">Cash</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card productCard shadow-lg">
-                    <img class="productImg" src="img/logos/tania.png" alt="">
-                    <div class="seperator"></div>
-                    <h5 class="cardTitle">مياه تانيا Tania</h5>
-                    <div class="details">
-                        <h6 class="cardDetails">الحد الادنى : 195 ريال</h6>
-                        <h6 class="cardDetails">التوصيل : 10:00 ص - 10:30 م</h6>
-                    </div>
-                    <div class="paymentsLogos">
-                        <img class="mada" src="img/logos/mada.png" alt="">
-                        <img class="visa" src="img/logos/visa.png" alt="">
-                        <div class="cash">
-                            <h6 class="cashAr">نقداً</h6>
-                            <h6 class="cashEn">Cash</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card productCard shadow-lg">
-                    <img class="productImg" src="img/logos/tania.png" alt="">
-                    <div class="seperator"></div>
-                    <h5 class="cardTitle">مياه تانيا Tania</h5>
-                    <div class="details">
-                        <h6 class="cardDetails">الحد الادنى : 195 ريال</h6>
-                        <h6 class="cardDetails">التوصيل : 10:00 ص - 10:30 م</h6>
-                    </div>
-                    <div class="paymentsLogos">
-                        <img class="mada" src="img/logos/mada.png" alt="">
-                        <img class="visa" src="img/logos/visa.png" alt="">
-                        <div class="cash">
-                            <h6 class="cashAr">نقداً</h6>
-                            <h6 class="cashEn">Cash</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card productCard shadow-lg">
-                    <img class="productImg" src="img/logos/tania.png" alt="">
-                    <div class="seperator"></div>
-                    <h5 class="cardTitle">مياه تانيا Tania</h5>
-                    <div class="details">
-                        <h6 class="cardDetails">الحد الادنى : 195 ريال</h6>
-                        <h6 class="cardDetails">التوصيل : 10:00 ص - 10:30 م</h6>
-                    </div>
-                    <div class="paymentsLogos">
-                        <img class="mada" src="img/logos/mada.png" alt="">
-                        <img class="visa" src="img/logos/visa.png" alt="">
-                        <div class="cash">
-                            <h6 class="cashAr">نقداً</h6>
-                            <h6 class="cashEn">Cash</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card productCard shadow-lg">
-                    <img class="productImg" src="img/logos/tania.png" alt="">
-                    <div class="seperator"></div>
-                    <h5 class="cardTitle">مياه تانيا Tania</h5>
-                    <div class="details">
-                        <h6 class="cardDetails">الحد الادنى : 195 ريال</h6>
-                        <h6 class="cardDetails">التوصيل : 10:00 ص - 10:30 م</h6>
-                    </div>
-                    <div class="paymentsLogos">
-                        <img class="mada" src="img/logos/mada.png" alt="">
-                        <img class="visa" src="img/logos/visa.png" alt="">
-                        <div class="cash">
-                            <h6 class="cashAr">نقداً</h6>
-                            <h6 class="cashEn">Cash</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card productCard shadow-lg">
-                    <img class="productImg" src="img/logos/tania.png" alt="">
-                    <div class="seperator"></div>
-                    <h5 class="cardTitle">مياه تانيا Tania</h5>
-                    <div class="details">
-                        <h6 class="cardDetails">الحد الادنى : 195 ريال</h6>
-                        <h6 class="cardDetails">التوصيل : 10:00 ص - 10:30 م</h6>
-                    </div>
-                    <div class="paymentsLogos">
-                        <img class="mada" src="img/logos/mada.png" alt="">
-                        <img class="visa" src="img/logos/visa.png" alt="">
-                        <div class="cash">
-                            <h6 class="cashAr">نقداً</h6>
-                            <h6 class="cashEn">Cash</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="col-lg-4">
+    <div class="card itemCard shadow-lg">
+        <img class="itemImg" src="img/nova.jpg" alt="">
+        <h5 class="Title">مياه تانيا Tania</h5>
+        <div class="details" style=" margin-left: 49%;">
+            <h6 class="detailsText">أروى زيرو 330مل 24قارورة</h6>
+            <h6 class="priceText2">الحجم:</h6>
+            <h6 class="size">330مل</h6>
+        </div>
+        <div class="price">
+            <h6 class="priceText">15 ر.س</h6>
+        </div>
+    </div>
+    <a name="" id="" class="btn btn-success btn-sm" href="#" role="button">أضف للسلة <i class="fas fa-cart-plus"></i></a>
+</div>
+<div class="col-lg-4">
+    <div class="card itemCard shadow-lg">
+        <img class="itemImg" src="img/nova.jpg" alt="">
+        <h5 class="Title">مياه تانيا Tania</h5>
+        <div class="details" style=" margin-left: 49%;">
+            <h6 class="detailsText">أروى زيرو 330مل 24قارورة</h6>
+            <h6 class="priceText2">الحجم:</h6>
+            <h6 class="size">330مل</h6>
+        </div>
+        <div class="price">
+            <h6 class="priceText">15 ر.س</h6>
+        </div>
+    </div>
+    <a name="" id="" class="btn btn-success btn-sm" href="#" role="button">أضف للسلة <i class="fas fa-cart-plus"></i></a>
+</div>
+<div class="col-lg-4">
+    <div class="card itemCard shadow-lg">
+        <img class="itemImg" src="img/nova.jpg" alt="">
+        <h5 class="Title">مياه تانيا Tania</h5>
+        <div class="details" style=" margin-left: 49%;">
+            <h6 class="detailsText">أروى زيرو 330مل 24قارورة</h6>
+            <h6 class="priceText2">الحجم:</h6>
+            <h6 class="size">330مل</h6>
+        </div>
+        <div class="price">
+            <h6 class="priceText">15 ر.س</h6>
+        </div>
+    </div>
+    <a name="" id="" class="btn btn-success btn-sm" href="#" role="button">أضف للسلة <i class="fas fa-cart-plus"></i></a>
+</div>
+<div class="col-lg-4">
+    <div class="card itemCard shadow-lg">
+        <img class="itemImg" src="img/nova.jpg" alt="">
+        <h5 class="Title">مياه تانيا Tania</h5>
+        <div class="details" style=" margin-left: 49%;">
+            <h6 class="detailsText">أروى زيرو 330مل 24قارورة</h6>
+            <h6 class="priceText2">الحجم:</h6>
+            <h6 class="size">330مل</h6>
+        </div>
+        <div class="price">
+            <h6 class="priceText">15 ر.س</h6>
+        </div>
+    </div>
+    <a name="" id="" class="btn btn-success btn-sm" href="#" role="button">أضف للسلة <i class="fas fa-cart-plus"></i></a>
+</div>
+<div class="col-lg-4">
+    <div class="card itemCard shadow-lg">
+        <img class="itemImg" src="img/nova.jpg" alt="">
+        <h5 class="Title">مياه تانيا Tania</h5>
+        <div class="details" style=" margin-left: 49%;">
+            <h6 class="detailsText">أروى زيرو 330مل 24قارورة</h6>
+            <h6 class="priceText2">الحجم:</h6>
+            <h6 class="size">330مل</h6>
+        </div>
+        <div class="price">
+            <h6 class="priceText">15 ر.س</h6>
+        </div>
+    </div>
+    <a name="" id="" class="btn btn-success btn-sm" href="#" role="button">أضف للسلة <i class="fas fa-cart-plus"></i></a>
+</div>
 
         </div>
     </section>
 
-    <div class="blueBar">
+    <div class="blueBar" onclick="redirect(`#`)">
         <a href="#" class="backToTop ">العودة إلى الأعلى</a>
     </div>
     <footer class="footer">
         <img class="footerLogo  shadow-lg" src="logo.png" alt="">
         <div class="customerSupport">
             <h1 href="#" class="customerServices">خدمات العملاء</h1>
-            <h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-<h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-
-<h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-<h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-<h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-<h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
+            <a href="#" class="customerServi">الارجاع والاستبدال</a>
+            <a href="#" class="customerServi">الارجاع والاستبدال</a>
 
         </div>
-<div class="aboutUs">
-    <h1 href="#" class="customerServices">نبذة عنا </h1>
-    <h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-    <h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-    <h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-</div>
+        <div class="aboutUs">
+            <h1 href="#" class="customerServices">نبذة عنا </h1>
+            <a href="#" class="customerServi">الارجاع والاستبدال</a>
+            <a href="#" class="customerServi">الارجاع والاستبدال</a>
+            <a href="#" class="customerServi">الارجاع والاستبدال</a>
+        </div>
 
-<div class="support">
-    <h1 href="#" class="customerServices">المساعد والدعم  </h1>
-    <h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-    <h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-    <h2 href="#" class="customerServi">الارجاع والاستبدال</h2>
-</div>
+        <div class="support">
+            <h1 href="#" class="customerServices">المساعد والدعم </h1>
+            <a href="#" class="customerServi">الارجاع والاستبدال</a>
+            <a href="#" class="customerServi">الارجاع والاستبدال</a>
+            <a href="#" class="customerServi">الارجاع والاستبدال</a>
+        </div>
 
-<div class="contact">
-    <img class="qrCode" src="img/qrCode.png" alt="">
-<h2 href="#" class="application">حمل التطبيق الآن</h2>
-<img src="img/googlePlay.png" alt="">
-<img src="img/appStore.png" alt="">
+        <div class="contact">
+            <img class="qrCode" src="img/qrCode.png" alt="">
+            <h2 href="#" class="application">حمل التطبيق الآن</h2>
+            <img src="img/googlePlay.png" alt="" style="cursor: pointer;" onclick="redirect(`#`)">
+            <img src="img/appStore.png" alt="" style="cursor: pointer;" onclick="redirect(`#`)">
 
-<h1 class="Whats">تواصل واتس: 0552448484</h1>
-
-</div>
+            <a href="tel:00966552448484">
+                <h1 class="Whats">تواصل واتس: 0552448484</h1>
+            </a>
+        </div>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
