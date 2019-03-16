@@ -37,13 +37,9 @@
 
 .dropdown-menu {
     outline: 0;
-    color: #495057;
-    background-color: #d4e6ed;
-    border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
     text-align: right;
-    width: 143px;
 }
 
 .logo {
@@ -512,4 +508,16 @@
         padding-top: 7%;
         padding-bottom: 1%;
     }
+}
+
+.no {
+    font-size: 30px;
+}
+
+.fa-shopping-cart {
+    font-size: 20px;
+}
+
+.cart{
+    border-radius: 100%;
 }

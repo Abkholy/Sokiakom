@@ -55,6 +55,69 @@
 
 
                 </ul>
+                <ul class="navbar-nav mr-auto">
+<div class="dropdown">
+<button class="btn  " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+<i class="fas fa-shopping-cart text-dark" ></i><div class="d-inline text-danger pr-2 no">5</div>
+
+    </button>
+    <style>
+    .dropdown-menu{
+width: 60em;
+
+    }
+    </style>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<div class="container">
+    <table id="cart" class="table table-hover table-condensed">
+        <thead>
+            <tr>
+                <th style="width:50%">المنتج</th>
+                <th style="width:10%">السعر</th>
+                <th style="width:8%">الكمية</th>
+                <th style="width:22%" class="text-center">الإجمالي</th>
+                <th style="width:10%"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-th="Product">
+                    <div class="row">
+                        <div class="col-sm-10">
+                            <h4 class="nomargin">منتج 1</h4>
+                
+                        </div>
+                    </div>
+                </td>
+                <td data-th="Price">150</td>
+                <td data-th="Quantity">
+                    <input type="number" class="form-control text-center" value="1">
+                </td>
+                <td data-th="Subtotal" class="text-center">150.00</td>
+                <td class="actions" data-th="">
+<button class="btn btn-info btn-sm"><i class="fas fa-sync"></i></button>
+<button class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></button>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="visible-xs">
+                <td class="text-center"><strong>المجموع 150</strong></td>
+            </tr>
+            <tr>
+                <td><a href="#" class="btn btn-warning">استكمال التسوق</a></td>
+                <td colspan="2" class="hidden-xs"></td>
+                <td class="hidden-xs text-center"><strong>المجموع 150 ريال</strong></td>
+                <td><a href="https://www.paypal.com/webapps/hermes?token=5EY097812P7754247&useraction=commit&mfid=1546377013907_cf1dec6830d7"
+                        class="btn btn-success btn-block">الدفع</a></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+    </div>
+</div>
+                </ul>
                 <!-- <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link navbartext disabled " href="#">المدينة:</a>
