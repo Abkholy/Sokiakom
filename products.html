@@ -25,139 +25,87 @@
 
 <body>
 
-    <header class="imgBack">
-        <a class="login" href="login.html">دخول</a>
-        <a class="register" href="signUp.html">تسجيل</a>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light position-relative shadow-lg" dir="rtl">
+     <header class="imgBack position-relative">
+         <a class="login" href="login.html">دخول</a>
+         <a class="register" href="signUp.html">تسجيل</a>
 
 
-            <img class="logo navbar-brand shadow-lg" src="logo.png" alt="">
-            <h1 class="title shadow-md">تطبيق سقياكم لطلب وتوصيل المياه</h1>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+         <h1 class="title shadow-md">تطبيق سقياكم لطلب وتوصيل المياه</h1>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-<li class="nav-item active">
-    <a class="nav-link " href="index.html">الرئيسية</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="signUp.html">تسجيل الشركات</a>
-</li>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-light position-relative shadow-lg" dir="rtl">
+             <div class="container position-relative">
+                 <div class=" logo shadow-lg">
+                     <img class="logoImg" href="index.html" src="logo.png" alt="responsive-image">
+                 </div>
+                 <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
 
-<li class="nav-item">
-    <a class="nav-link" href="contacuUs.html">اتصل بنا</a>
-</li>
+                     <ul class="navbar-nav mr-auto ml-lg-auto mr-lg-0 mt-2 mt-lg-0 d-flex justify-content-center ">
+                         <li class="nav-item active">
+                             <a class="nav-link text-right " href="index.html">الرئيسية</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link text-right" href="signUp.html">تسجيل الشركات</a>
+                         </li>
+
+                         <li class="nav-item">
+                             <a class="nav-link text-right" href="contacuUs.html">اتصل بنا</a>
+                         </li>
+
+                     </ul>
+                     <ul class="navbar-nav mr-auto ml-lg-auto mr-lg-0 mt-2 mt-lg-0 d-flex justify-content-center ">
+                         <li class="nav-item">
+                             <a class="nav-link navbartext disabled  text-right" href="#">المدينة:</a>
+                         </li>
+                         <li class="nav-item ">
+                             <div class="dropdown">
+                                 <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                     aria-haspopup="true" aria-expanded="false" style="margin-left: 100px;">
+                                     المدينة
+                                 </button>
+                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
+                                     style="margin-left: 100px;">
+                                     <a class="dropdown-item" href="#">الرياض</a>
+                                     <a class="dropdown-item" href="#">جدة</a>
+                                     <a class="dropdown-item" href="#">مكة</a>
+                                 </div>
+                             </div>
+                         </li>
+
+                         <li class="nav-item">
+                             <a class="nav-link navbartext disabled text-right" href="#">الحي:</a>
+                         </li>
+                         <li class="nav-item">
+                             <div class="dropdown">
+                                 <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                     aria-haspopup="true" aria-expanded="false">
+                                     الحي
+                                 </button>
+                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                     <a class="dropdown-item" href="#">الملك فهد</a>
+                                     <a class="dropdown-item" href="#">جدة</a>
+                                     <a class="dropdown-item" href="#">مكة</a>
+                                 </div>
+                             </div>
+                         </li>
+
+                     </ul>
+                 </div>
 
 
-                </ul>
-                <ul class="navbar-nav mr-auto">
-<div class="dropdown">
-<button class="btn  " type="button" id="dropdownMenuButton" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-<i class="fas fa-shopping-cart text-dark" ></i><div class="d-inline text-danger pr-2 no">5</div>
+             </div>
 
-    </button>
-    <style>
-    .dropdown-menu{
-width: 60em;
 
-    }
-    </style>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-<div class="container">
-    <table id="cart" class="table table-hover table-condensed">
-        <thead>
-            <tr>
-                <th style="width:50%">المنتج</th>
-                <th style="width:10%">السعر</th>
-                <th style="width:8%">الكمية</th>
-                <th style="width:22%" class="text-center">الإجمالي</th>
-                <th style="width:10%"></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td data-th="Product">
-                    <div class="row">
-                        <div class="col-sm-10">
-                            <h4 class="nomargin">منتج 1</h4>
-                
-                        </div>
-                    </div>
-                </td>
-                <td data-th="Price">150</td>
-                <td data-th="Quantity">
-                    <input type="number" class="form-control text-center" value="1">
-                </td>
-                <td data-th="Subtotal" class="text-center">150.00</td>
-                <td class="actions" data-th="">
-<button class="btn btn-info btn-sm"><i class="fas fa-sync"></i></button>
-<button class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></button>
-                </td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr class="visible-xs">
-                <td class="text-center"><strong>المجموع 150</strong></td>
-            </tr>
-            <tr>
-                <td><a href="#" class="btn btn-warning">استكمال التسوق</a></td>
-                <td colspan="2" class="hidden-xs"></td>
-                <td class="hidden-xs text-center"><strong>المجموع 150 ريال</strong></td>
-                <td><a href="https://www.paypal.com/webapps/hermes?token=5EY097812P7754247&useraction=commit&mfid=1546377013907_cf1dec6830d7"
-                        class="btn btn-success btn-block">الدفع</a></td>
-            </tr>
-        </tfoot>
-    </table>
-</div>
-    </div>
-</div>
-                </ul>
-                <!-- <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link navbartext disabled " href="#">المدينة:</a>
-                    </li> -->
-                <!-- <li class="nav-item">
-                        <div class="dropdown">
-                            <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false" style="margin-left: 100px;">
-                                المدينة
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="margin-left: 100px;">
-                                <a class="dropdown-item" href="#">الرياض</a>
-                                <a class="dropdown-item" href="#">جدة</a>
-                                <a class="dropdown-item" href="#">مكة</a>
-                            </div>
-                        </div>
-                    </li> -->
+             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                 data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                 aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
 
-                <!-- <li class="nav-item">
-                        <a class="nav-link navbartext disabled " href="#">الحي:</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                الحي
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">الملك فهد</a>
-                                <a class="dropdown-item" href="#">جدة</a>
-                                <a class="dropdown-item" href="#">مكة</a>
-                            </div>
-                        </div>
-                    </li> -->
+         </nav>
 
-                </ul>
-            </div>
-        </nav>
 
-    </header>
+     </header>
     <!-- 
     <main class="main">
         <div class="owl-carousel owl-theme">
@@ -341,39 +289,62 @@ width: 60em;
     <div class="blueBar">
         <a href="#" class="backToTop ">العودة إلى الأعلى</a>
     </div>
-    <footer class="footer">
-        <img class="footerLogo  shadow-lg" src="logo.png" alt="">
-        <div class="customerSupport">
-            <h1 href="#" class="customerServices">خدمات العملاء</h1>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
+      <footer class="footer" dir="rtl">
 
-        </div>
-        <div class="aboutUs">
-            <h1 href="#" class="customerServices">نبذة عنا </h1>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-        </div>
+          <div class="row pt-5">
+              <div class="d-flex justify-content-center col-lg-3 col-md-6 col-sm-12 col-12 ">
+                  <img class="footerLogo  shadow-lg" src="logo.png" alt="">
 
-        <div class="support">
-            <h1 href="#" class="customerServices">المساعد والدعم </h1>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-        </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12 pr-5 pt-5 pt-lg-0 pr-lg-0">
+                  <div class="row ">
+                      <div class="col-lg-3 ">
+                          <h1 href="#" class="customerServices">خدمات العملاء</h1>
+                          <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                          <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                      </div>
+                      <div class="col-lg-3 pt-5 pt-lg-0 ">
+                          <h1 href="#" class="customerServices">نبذة عنا </h1>
+                          <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                          <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                          <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                      </div>
+                      <div class="col-lg-3 pt-5  pt-lg-0">
+                          <h1 href="#" class="customerServices">المساعد والدعم </h1>
+                          <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                          <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                          <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-12 col-sm-12 col-12 pt-md-5 pt-5  pt-lg-0">
+                  <div class="row d-flex justify-content-center ">
+                      <img class="qrCode" src="img/qrCode.png" alt="">
 
-        <div class="contact">
-            <img class="qrCode" src="img/qrCode.png" alt="">
-            <h2 href="#" class="application">حمل التطبيق الآن</h2>
-            <img src="img/googlePlay.png" alt="" style="cursor: pointer;" onclick="redirect(`#`)">
-            <img src="img/appStore.png" alt="" style="cursor: pointer;" onclick="redirect(`#`)">
+                  </div>
+                  <div class="row d-flex justify-content-center ">
+                      <h2 href="#" class="application">حمل التطبيق الآن</h2>
 
-            <a href="tel:00966552448484">
-                <h1 class="Whats">تواصل واتس: 0552448484</h1>
-            </a>
-        </div>
-    </footer>
+
+                  </div>
+                  <div class="row d-flex justify-content-center ">
+                      <img src="img/googlePlay.png" alt="" class="icon_download" onclick="redirect(`#`)">
+                      <img src="img/appStore.png" alt="" class="icon_download" onclick="redirect(`#`)">
+                  </div>
+
+                  <div class="row d-flex justify-content-center ">
+                      <a href="tel:00966552448484">
+                          <h1 class="Whats">تواصل واتس: 0552448484</h1>
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+
+
+
+
+      </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>

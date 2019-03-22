@@ -22,84 +22,94 @@
 
 <body>
 
-    <header class="imgBack">
+    <header class="imgBack position-relative">
 <a class="login" href="login.html">دخول</a>
 <a class="register" href="signUp.html">تسجيل</a>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light position-relative shadow-lg" dir="rtl">
 
 
-            <img class="logo navbar-brand shadow-lg" src="logo.png" alt="">
-            <h1 class="title shadow-md">تطبيق سقياكم لطلب وتوصيل المياه</h1>
+<h1 class="title shadow-md">تطبيق سقياكم لطلب وتوصيل المياه</h1>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-dark bg-light position-relative shadow-lg" dir="rtl">
+    <div class="container position-relative">
+        <div class=" logo shadow-lg" >
+            <img class="logoImg" href="index.html" src="logo.png" alt="responsive-image">
+        </div>
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+
+<ul class="navbar-nav mr-auto ml-lg-auto mr-lg-0 mt-2 mt-lg-0 d-flex justify-content-center ">
+    <li class="nav-item active">
+        <a class="nav-link text-right " href="index.html">الرئيسية</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-right" href="signUp.html">تسجيل الشركات</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link text-right" href="contacuUs.html">اتصل بنا</a>
+    </li>
+
+</ul>
+<ul class="navbar-nav mr-auto ml-lg-auto mr-lg-0 mt-2 mt-lg-0 d-flex justify-content-center ">
+    <li class="nav-item">
+<a class="nav-link navbartext disabled  text-right" href="#">المدينة:</a>
+    </li>
+<li class="nav-item ">
+        <div class="dropdown">
+            <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" style="margin-left: 100px;">
+                المدينة
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link " href="index.html">الرئيسية</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="signUp.html">تسجيل الشركات</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacuUs.html">اتصل بنا</a>
-                    </li>
-
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link navbartext disabled " href="#">المدينة:</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false" style="margin-left: 100px;">
-                                المدينة
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="margin-left: 100px;">
-                                <a class="dropdown-item" href="#">الرياض</a>
-                                <a class="dropdown-item" href="#">جدة</a>
-                                <a class="dropdown-item" href="#">مكة</a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link navbartext disabled " href="#">الحي:</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                الحي
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">الملك فهد</a>
-                                <a class="dropdown-item" href="#">جدة</a>
-                                <a class="dropdown-item" href="#">مكة</a>
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="margin-left: 100px;">
+                <a class="dropdown-item" href="#">الرياض</a>
+                <a class="dropdown-item" href="#">جدة</a>
+                <a class="dropdown-item" href="#">مكة</a>
             </div>
-        </nav>
+        </div>
+    </li>
+
+    <li class="nav-item">
+<a class="nav-link navbartext disabled text-right" href="#">الحي:</a>
+    </li>
+    <li class="nav-item">
+        <div class="dropdown">
+            <button class="btn btnNav" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                الحي
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">الملك فهد</a>
+                <a class="dropdown-item" href="#">جدة</a>
+                <a class="dropdown-item" href="#">مكة</a>
+            </div>
+        </div>
+    </li>
+
+</ul>
+        </div>
+
+
+    </div>
+
+
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+</nav>
+
 
     </header>
 
     <main class="main">
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <p class="mainText">بنر إعلاني متغير</p>
+                <!-- <p class="mainText">بنر إعلاني متغير</p> -->
                 <img src="exampleImage.png" alt="">
             </div>
             <div class="item">
-                <p class="mainText">بنر إعلاني متغير</p>
+                <!-- <p class="mainText">بنر إعلاني متغير</p> -->
 
                 <img src="https://i.pinimg.com/564x/b5/4f/21/b54f21d8776e2a39225e584146c74bbc.jpg" alt="">
             </div>
@@ -109,13 +119,13 @@
 
     <section name="ads" class="container-fluid pt-2" dir="rtl">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-lg-6 col-md-12 ">
                 <a href="#">
                     <img class="adImage" src="img/ad1.png" alt="">
                     <h1 class="adText">سوق المياه</h1>
                 </a>
             </div>
-            <div class="col-6">
+<div class="col-12 col-lg-6 col-md-12">
                 <a href="#">
                     <img class="adImage" src="img/ad2.png" alt="">
                     <h1 class="adText">هايبر ماركت</h1>
@@ -126,7 +136,7 @@
 
     <section class="container-fluid " dir="rtl">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-xl-3 col-sm-6 col-12">
                 <div class="card productCard shadow-lg" onclick="redirect(`www.google.com`)">
                     <img class="productImg" src="img/logos/tania.png" alt="">
                     <div class="seperator"></div>
@@ -145,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-xl-3 col-sm-6 col-12">
                 <div class="card productCard shadow-lg" onclick="redirect(`www.google.com`)">
                     <img class="productImg" src="img/logos/tania.png" alt="">
                     <div class="seperator"></div>
@@ -164,7 +174,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-xl-3 col-sm-6 col-12">
                 <div class="card productCard shadow-lg" onclick="redirect(`www.google.com`)">
                     <img class="productImg" src="img/logos/tania.png" alt="">
                     <div class="seperator"></div>
@@ -183,7 +193,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-xl-3 col-sm-6 col-12">
                 <div class="card productCard shadow-lg" onclick="redirect(`www.google.com`)">
                     <img class="productImg" src="img/logos/tania.png" alt="">
                     <div class="seperator"></div>
@@ -202,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-xl-3 col-sm-6 col-12">
                 <div class="card productCard shadow-lg" onclick="redirect(`www.google.com`)">
                     <img class="productImg" src="img/logos/tania.png" alt="">
                     <div class="seperator"></div>
@@ -221,7 +231,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-xl-3 col-sm-6 col-12">
                 <div class="card productCard shadow-lg" onclick="redirect(`www.google.com`)">
                     <img class="productImg" src="img/logos/tania.png" alt="">
                     <div class="seperator"></div>
@@ -240,7 +250,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-xl-3 col-sm-6 col-12">
                 <div class="card productCard shadow-lg" onclick="redirect(`www.google.com`)">
                     <img class="productImg" src="img/logos/tania.png" alt="">
                     <div class="seperator"></div>
@@ -259,7 +269,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-xl-3 col-sm-6 col-12">
                 <div class="card productCard shadow-lg" onclick="redirect(`www.google.com`)">
                     <img class="productImg" src="img/logos/tania.png" alt="">
                     <div class="seperator"></div>
@@ -285,38 +295,62 @@
     <div class="blueBar">
         <a href="#" class="backToTop ">العودة إلى الأعلى</a>
     </div>
-    <footer class="footer">
-        <img class="footerLogo  shadow-lg" src="logo.png" alt="">
-        <div class="customerSupport">
-            <h1 href="#" class="customerServices">خدمات العملاء</h1>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
 
-        </div>
-        <div class="aboutUs">
-            <h1 href="#" class="customerServices">نبذة عنا </h1>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-        </div>
+    <footer class="footer" dir="rtl">
 
-        <div class="support">
-            <h1 href="#" class="customerServices">المساعد والدعم </h1>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-            <a href="#" class="customerServi">الارجاع والاستبدال</a>
-        </div>
+        <div class="row pt-5">
+            <div class="d-flex justify-content-center col-lg-3 col-md-6 col-sm-12 col-12 ">
+                        <img class="footerLogo  shadow-lg" src="logo.png" alt="">
 
-        <div class="contact">
-            <img class="qrCode" src="img/qrCode.png" alt="">
-            <h2 href="#" class="application">حمل التطبيق الآن</h2>
-            <img src="img/googlePlay.png" alt="" style="cursor: pointer;" onclick="redirect(`#`)">
-            <img src="img/appStore.png" alt="" style="cursor: pointer;" onclick="redirect(`#`)">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 pr-5 pt-5 pt-lg-0 pr-lg-0" >
+                <div class="row ">
+                    <div class="col-lg-3 ">
+                           <h1 href="#" class="customerServices">خدمات العملاء</h1>
+                        <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                   <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                    </div>
+                    <div class="col-lg-3 pt-5 pt-lg-0 ">
+                        <h1 href="#" class="customerServices">نبذة عنا </h1>
+                        <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                        <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                        <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                    </div>
+                    <div class="col-lg-3 pt-5  pt-lg-0">
+                        <h1 href="#" class="customerServices">المساعد والدعم </h1>
+                        <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                        <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                        <a href="#" class="customerServi">الارجاع والاستبدال</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 pt-md-5 pt-5  pt-lg-0">
+                <div class="row d-flex justify-content-center ">
+                      <img class="qrCode" src="img/qrCode.png" alt="">
+           
+                </div>
+                <div class="row d-flex justify-content-center ">
+                    <h2 href="#" class="application">حمل التطبيق الآن</h2>
+                                      
+                  
+                </div>
+                <div class="row d-flex justify-content-center ">
+                    <img src="img/googlePlay.png" alt="" class="icon_download" onclick="redirect(`#`)">
+                    <img src="img/appStore.png" alt="" class="icon_download" onclick="redirect(`#`)">
+                </div>
 
-            <a href="tel:00966552448484">
-                <h1 class="Whats">تواصل واتس: 0552448484</h1>
-            </a>
+                <div class="row d-flex justify-content-center ">
+                    <a href="tel:00966552448484">
+                        <h1 class="Whats">تواصل واتس: 0552448484</h1>
+                    </a>
+                </div>
+            </div>
+        
         </div>
+        
+      
+
+     
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
